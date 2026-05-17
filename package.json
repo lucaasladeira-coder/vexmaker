@@ -2,15 +2,22 @@
   "name": "vexmaker",
   "version": "1.0.0",
   "description": "VexMaker — Gestão de Impressões 3D",
-  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "3dprinting",
     "order-management",
-    "dashboard"
+    "dashboard",
+    "vite",
+    "vercel"
   ],
   "author": "VexMaker Team",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
 }
