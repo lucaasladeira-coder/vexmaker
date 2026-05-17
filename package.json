@@ -1,0 +1,16 @@
+{
+  "name": "vexmaker",
+  "version": "1.0.0",
+  "description": "VexMaker — Gestão de Impressões 3D",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "3dprinting",
+    "order-management",
+    "dashboard"
+  ],
+  "author": "VexMaker Team",
+  "license": "MIT"
+}
